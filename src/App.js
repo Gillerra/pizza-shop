@@ -10,17 +10,18 @@ function App() {
       
           <AllCategories />
 
-
       <div className='block'>
-      
-      <div className='dishes'>
-      <Dishes />
-      </div>
+
       <div className='cart'>
       <Cart />
       </div>
 
+      <div className='dishes'>
+      <Dishes />
       </div>
+      
+      </div>
+      
     </div>
   );
 }

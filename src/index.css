@@ -5,10 +5,9 @@
 }
 
 .cart, .dishes {
-  background-color: antiquewhite;
   text-align: center;
+  background-color: antiquewhite;
 }
-
 
 .container {
   display: flex;
@@ -18,7 +17,7 @@
 }
 
 img {
-  width: 400px;
+  width:500px;
   border-radius: 5px;
   filter: drop-shadow(5px 5px 5px #4c4f4f);
 }
@@ -107,14 +106,23 @@ button {
   color: #d5f1e8;
 }
 
-/* .order {
+.orderNone {
   display: none;
-} */
+}
+
+.order {
+  display: block;
+  margin: 0 auto;
+}
 
 @media all and (max-width:500px){
 
+  .block {
+    flex-direction: column;
+  }
+
   h1 {
-    font-size: 35px;
+    font-size: 33px;
   }
 
   img {

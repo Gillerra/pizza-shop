@@ -14,7 +14,7 @@ const Cart = () => {
 
         <h3>К оплате: {totalPrice} рублей</h3>
 
-        <button className="order">Оформить заказ</button>
+        <button className={cartItems.length < 1 ? 'orderNone' : 'order'}>Оформить заказ</button>
 
         </div>)
 }
